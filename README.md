@@ -20,4 +20,10 @@ $defaults = [<br>
         'file_no_image' => 'noimage.png', - картинка заставка, если нет картинки file<br>
         'path_no_image' => 'media/upload/no_image/' - путь к картинке заставке<br>
     ];<br>
-< img src='".get_img(array('file'=>$img_name_from_db, 'path'=>NEWS_PATH, 'size'=>array(100, 200)))."' />
+< img src="<?=get_img(array('file'=>$img_name_from_db, 'path'=>NEWS_PATH, 'size'=>array(100, 200)))?>' />
+<br/>
+<br/>
+Для работы хелпера нужны две стандартные библиотеки Codeigniter <br/>
+
+image_lib и image_moo
+
