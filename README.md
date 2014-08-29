@@ -19,5 +19,5 @@ $defaults = [
         'orientation' => 'inside', - возможные значения inside или outside, определяет принцип обрезки, inside - обе оси                                        входили в предполагаемую область, outside при достижении одной оси останавливается                                         уменьшение
         'file_no_image' => 'noimage.png', - картинка заставка, если нет картинки file
         'path_no_image' => 'media/upload/no_image/' - путь к картинке заставке
-    ];
+    ];<br>
 < img src='".get_img(array('file'=>$img_name_from_db, 'path'=>NEWS_PATH, 'size'=>array(100, 200)))."' />
