@@ -10,8 +10,8 @@ $img_name_from_db = 'car.jpg'; <br>
 define('NEWS_PATH', 'media/upload/news/');<br>
 парамметры по умолчанию:<br>
 $defaults = [<br>
-        'file' => false, - имя файла<br>
-        'path' => false, - путь к фалу<br>
+                'file' => false, - имя файла<br>
+                'path' => false, - путь к фалу<br>
         'size' => false, - размеры создаваемой картинки, массив array(widht, height)<br>
         'with_http' => false, - возвращать путь с http и доменом или без<br>
         'need_crop' => true, - делать обрезку crop картинки<br>
